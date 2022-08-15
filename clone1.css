@@ -2,7 +2,10 @@
   padding: 1.5em;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'lexend-deca', sans-serif;
 }
+@import url('http://fonts.cdnfonts.com/css/lexend-deca');
+                
 html {
   padding: 0;
   padding-top: 0;
@@ -23,6 +26,7 @@ html {
   padding: 0;
 }
 body {
+  overflow-x: hidden;
   padding: 0;
   position: relative;
   z-index: 1;
@@ -112,6 +116,7 @@ h2 .deets {
   padding: 0;
   padding-top: 10px;
   padding-bottom: 20px;
+  font-weight: 500;
 }
 h3 {
   font-stretch: expanded;
@@ -239,7 +244,7 @@ b {
   margin-bottom: 50px;
 }
 .redSquarebtn {
-  background-color: #ffffff;
+  background-color: #e2e8f0;
   color: #e21a05;
   font-size: 15px;
   padding: 10px;
@@ -343,7 +348,9 @@ footer {
   .brushPattern1 {
     display: none;
   }
-
+  h1 {
+    font-size: 32px;
+  }
   .brushPattern {
     display: none;
   }
@@ -363,6 +370,15 @@ footer {
     flex: 1 130px;
     width: 100%;
   }
+  .head2 img {
+    justify-content: flex-end;
+  }
+  .deets {
+    text-align: left;
+  }
+.deets1 {
+  text-align: center;
+}
   .halfBrush {
     display: none;
   }
@@ -379,6 +395,7 @@ footer {
     padding: 0;
     align-items: center;
     text-align: left;
+    font-size: 40px;
   }
   .redImg img {
     padding: 0;
@@ -414,6 +431,9 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     border-radius: 5px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .redFont {
     padding: 0;
@@ -425,6 +445,18 @@ footer {
     width: 300px;
     justify-content: center;
     padding: 0;
+  }
+  .mediaNames img {
+    width: 62px;
+  }
+  .mediaNames p {
+    display: none;
+  }
+  .last {
+    display: flex;
+    color: #ffffff;
+    width: 50%;
+    justify-content: space-between;
   }
 }
 
